@@ -85,6 +85,7 @@ class InvitationViewModel(
     //Check if user exist
     val _checkUserLivedata : MutableLiveData<User?> = MutableLiveData()
     val checkUserLivedata = _checkUserLivedata
+    @SuppressLint("SuspiciousIndentation")
     fun checkUser(email: String) {
       val user =  checkUserExistUseCase.execute(email)
         _checkUserLivedata.postValue(user)
