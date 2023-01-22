@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("object", it)
                 startActivity(intent)
                 finish()
-            } ?: kotlin.run { // Elevis operator
+            } ?: kotlin.run { 
                 binding.apply {
                     val name = etName.text.toString()
                     val email = etEmail.text.toString()
