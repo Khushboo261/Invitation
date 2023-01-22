@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Invitation</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="submit">Submit</string>
+    <string name="congratulations1">Congratulations! You are invited!</string>
+    <string name="todo">TODO</string>
+    <string name="invite_already_sent">Invite already sent!</string>
+    <string name="do_you_want_to_cancel_your_invite">Do you want to cancel your invite?</string>
+    <string name="cancel">Cancel Invite</string>
+    <string name="back">BACK</string>
+</resources>
